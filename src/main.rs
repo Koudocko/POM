@@ -1,7 +1,7 @@
 mod split;
 
-use split::Split;
+use split::*;
 
 fn main(){
-    let mut windows = Vec::<Split>::new();
+    let mut windows = vec![Split::default()];
 }
